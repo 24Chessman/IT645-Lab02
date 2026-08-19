@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /test/
+
+Sitemap: https://24chessman.github.io/IT645-Lab02/sitemap.xml
