@@ -2,12 +2,12 @@
 <!-- Placeholder base URL for this academic demo; replace it with the deployed domain before publishing. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.com/pageturner-books/index.html</loc>
+    <loc>https://24Chessman.github.io/Lab02/index.html</loc>
   </url>
   <url>
-    <loc>https://example.com/pageturner-books/menu.html</loc>
+    <loc>https://24Chessman.github.io/Lab02/menu.html</loc>
   </url>
   <url>
-    <loc>https://example.com/pageturner-books/contact.html</loc>
+    <loc>https://24Chessman.github.io/Lab02/contact.html</loc>
   </url>
 </urlset>
