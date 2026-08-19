@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pageturner Books | Performance Baseline</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; color: #27233d; background: #f8f3ea; font-family: Georgia, 'Times New Roman', serif; }
+  header { padding: 22px 6vw; color: #fff; background: #27233d; display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+  header h1 { margin: 0; font-size: 1.6rem; }
+  nav { display: flex; flex-wrap: wrap; gap: 18px; }
+  nav a { color: #f2c14e; }
+  .hero { padding: 72px 6vw; color: #fff; background: #247b82; }
+  .hero h2 { max-width: 700px; margin: 0 0 12px; font-size: clamp(2rem, 5vw, 4.5rem); }
+  .hero p { max-width: 620px; margin: 0; font-size: 1.1rem; line-height: 1.6; }
+  main { max-width: 1180px; margin: auto; padding: 52px 6vw; }
+  h2 { margin: 0 0 24px; }
+  .books { display: flex; flex-wrap: wrap; gap: 24px; align-items: stretch; }
+  .book-card { flex: 1 1 180px; min-width: 160px; padding: 14px; background: #fff; border: 1px solid #dfd5c7; }
+  .book-card img { display: block; width: 100%; height: auto; }
+  .book-card h3 { margin: 14px 0 4px; }
+  .book-card p { margin: 0; color: #665b58; line-height: 1.5; }
+  .video-section { margin-top: 58px; }
+  .video-frame { width: 100%; aspect-ratio: 16 / 9; border: 0; display: block; }
+  footer { padding: 28px 6vw; color: #fff; background: #27233d; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Pageturner Books</h1>
+  <nav><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="contact.html">Contact</a></nav>
+</header>
+<section class="hero"><h2>Stories for every kind of reader.</h2><p>Explore a small, self-authored demo collection spanning science fiction, comedy, drama, adventure, and mystery.</p></section>
+<main>
+  <h2>Featured collection</h2>
+  <div class="books">
+    <article class="book-card"><img src="assets/images/book1-original.svg" alt="The Night Atlas book cover"><h3>The Night Atlas</h3><p>Science fiction for curious minds.</p></article>
+    <article class="book-card"><img src="assets/images/book2-original.svg" alt="Small Joys book cover"><h3>Small Joys</h3><p>Warm comedy and bright essays.</p></article>
+    <article class="book-card"><img src="assets/images/book3-original.svg" alt="A House of Tides book cover"><h3>A House of Tides</h3><p>A contemporary family drama.</p></article>
+    <article class="book-card"><img src="assets/images/book4-original.svg" alt="Field Runner book cover"><h3>Field Runner</h3><p>Adventure stories with momentum.</p></article>
+    <article class="book-card"><img src="assets/images/book5-original.svg" alt="The Quiet Door book cover"><h3>The Quiet Door</h3><p>A mystery for late-night readers.</p></article>
+  </div>
+  <section class="video-section"><h2>Inside the collection</h2><p>Watch a short tour of a book collection.</p><iframe class="video-frame" src="https://www.youtube-nocookie.com/embed/ckPabPPi-KA" title="Book collection tour video" allowfullscreen></iframe></section>
+</main>
+<footer><p>&copy; 2026 Pageturner Books. Demo artwork created for IT645.</p></footer>
+</body>
+</html>
